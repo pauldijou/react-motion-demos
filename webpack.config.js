@@ -9,14 +9,10 @@ module.exports = {
     modulesDirectories: ['node_modules'],
     extensions: ['', '.js']
   },
-
-  // entry: [
-  //   'webpack/hot/dev-server',
-  //   './web/app.js'
-  // ],
-
+  
   entry: {
-    accordionLayout: ['./accordion-layout/index']
+    accordionLayout: ['./accordion-layout/index'],
+    notifications: ['./notifications/index'],
   },
 
   output: {

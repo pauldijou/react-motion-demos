@@ -19,7 +19,7 @@ export default class Layout extends React.Component {
   }
 
   insert(index, child) {
-    if (index >= this.state.columns.lenght) {
+    if (index >= this.state.columns.length) {
       this.push(child);
     } else {
       this.setState({

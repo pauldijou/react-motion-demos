@@ -51,7 +51,7 @@ class App extends React.Component {
   }
 
   render() {
-    return (<div onKeyPress={this.handleKeyPress}>
+    return (<div>
       <Layout ref="layout" stiffness={this.state.stiffness} damping={this.state.damping} />
       <p>
         <button type="button" onClick={this.push}>Add {this.state.nbColumns} column(s)</button>
